@@ -23,13 +23,13 @@ td{
     width: 300px;
     text-align: center;
     border-collapse: collapse;
-    margin: 20px 0px 0px 20px;
+    margin: 30px 0px 30px 20px;
 }
 
 .borda-separada{
     width: 300px;
     border-collapse: separate;
-    margin: 20px 0px 0px 20px;
+    margin: 30px 0px 30px 20px;
     text-align: center;
 }
 .container{

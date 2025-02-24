@@ -7,65 +7,123 @@
     <title>Desafio das tabelas</title>
 </head>
 <body>
-    <h1>Tabela 1</h1>
+    <h1 class="titulo">Tabela 1</h1>
     <div class="container">
+
         <table class="borda-junta">
-            <caption>Borda colapsada</caption>
+            <caption>Borda Colapsada</caption>
             <tr>
-                <td scape="row">1</td>
-                <td scape="row">2</td>
-                <td scape="row" rowspan="2">3</td>
-                <td scape="row">4</td>
+                <td>1</td>
+                <td>2</td>
+                <td rowspan="2">3</td>
+                <td>4</td>
             </tr>
             <tr>
-                <td scape="row">5</td>
-                <td scape="row">6</td>
-                <td scape="row">7</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
             </tr>
             <tr>
-                <td scape="row" colspan="3">8</td>
-                <td scape="row">9</td>
+                <td colspan="3">8</td>
+                <td>9</td>
             </tr>
             <tr>
-                <td scape="row" rowspan="2">10</td>
-                <td scape="row" colspan="2">11</td>
-                <td scape="row">12</td>
+                <td rowspan="2">10</td>
+                <td colspan="2">11</td>
+                <td>12</td>
             </tr>
             <tr>
-                <td scape="row">13</td>
-                <td scape="row">14</td>
-                <td scape="row">15</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
             </tr>
         </table>
         <table class="borda-separada">
-            <caption>borda separada</caption>
+            <caption>Borda Separada</caption>
             <tr>
-                <td scape="row">1</td>
-                <td scape="row">2</td>
-                <td scape="row" rowspan="2">3</td>
-                <td scape="row">4</td>
+                <td>1</td>
+                <td>2</td>
+                <td rowspan="2">3</td>
+                <td>4</td>
             </tr>
             <tr>
-                <td scape="row">5</td>
-                <td scape="row">6</td>
-                <td scape="row">7</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
             </tr>
             <tr>
-                <td scape="row" colspan="3">8</td>
-                <td scape="row">9</td>
+                <td colspan="3">8</td>
+                <td>9</td>
             </tr>
             <tr>
-                <td scape="row" rowspan="2">10</td>
-                <td scape="row" colspan="2">11</td>
-                <td scape="row">12</td>
+                <td rowspan="2">10</td>
+                <td colspan="2">11</td>
+                <td>12</td>
             </tr>
             <tr>
-                <td scape="row">13</td>
-                <td scape="row">14</td>
-                <td scape="row">15</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
             </tr>
         </table>
     </div>
 
+    <h1 class="titulo">Tabela 2</h1>
+
+    <div class="container">
+        <table class="borda-junta">
+            <caption>Borda Colapsada</caption>
+            <tr>
+                <td colspan="4">A</td>
+                <td rowspan="4">B</td>
+            </tr>
+            <tr>
+                <td rowspan="4">C</td>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+            </tr>
+            <tr>
+                <td>G</td>
+                <td>H</td>
+                <td>I</td>
+            </tr>
+            <tr>
+                <td>J</td>
+                <td>L</td>
+                <td>M</td>
+            </tr>
+            <tr>
+                <td colspan="4">N</td>
+            </tr>
+        </table>
+
+        <table class="borda-separada">
+            <caption>Borda Separada</caption>
+            <tr>
+                <td colspan="4">A</td>
+                <td rowspan="4">B</td>
+            </tr>
+            <tr>
+                <td rowspan="4">C</td>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+            </tr>
+            <tr>
+                <td>G</td>
+                <td>H</td>
+                <td>I</td>
+            </tr>
+            <tr>
+                <td>J</td>
+                <td>L</td>
+                <td>M</td>
+            </tr>
+            <tr>
+                <td colspan="4">N</td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>
