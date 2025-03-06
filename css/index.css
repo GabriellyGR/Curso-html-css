@@ -48,3 +48,35 @@ th{
     margin: 30px 0px 30px 0px;
     text-align: center;
 }
+
+.media{
+    margin: 30px 0px 30px 0px;
+    text-align: center;
+    border-collapse: collapse;
+
+}
+
+.media > thead{
+    background-color: rgb(102, 100, 100);
+    color: white;
+}
+
+#total{
+    background-color: rgb(102, 100, 100);
+    color: white;
+}
+
+.media > thead > tr > th{
+    padding: 5px;
+    width: 110px;
+}
+
+.media > tbody > tr > th,
+.media > tbody > tr > td{
+    padding: 5px;
+}
+
+  
+
+
+
